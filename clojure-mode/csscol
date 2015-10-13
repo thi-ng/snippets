@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: thi.ng/color: CSS convert
+# key: csscol
+# binding: direct-keybinding
+# --
+@(col/as-css $0)

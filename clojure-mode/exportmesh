@@ -1,0 +1,7 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: thi.ng/geom: export mesh
+# key: exportmesh
+# binding: direct-keybinding
+# --
+(with-open [$1 (io/output-stream $2)]
+  (mio/write-${3:$$(yas-choose-value '("off" "obj" "ply" "stl"))} (mio/wrapped-output-stream $1) $0))

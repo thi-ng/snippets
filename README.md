@@ -22,11 +22,19 @@ Then add directory to yasnippet search paths (in `init.el`):
 
 Useful for importing various thi.ng lib namespaces in a `:require` spec:
 
-* `thicol` => thi.ng/color namespaces
-* `thicl` => thi.ng/simplecl namespaces
-* `thifab` => thi.ng/fabric namespaces (all modules)
-* `thigeom` => thi.ng/geom namespaces (all modules)
-* `thilux` => thi.ng/luxor namespaces
-* `thimath` => thi.ng/math namespaces
-* `thitrio` => thi.ng/trio namespaces
+* `thicol` => http://thi.ng/color namespaces
+* `thicl` => http://thi.ng/simplecl namespaces
+* `thifab` => http://thi.ng/fabric namespaces (all modules)
+* `thigeom` => http://thi.ng/geom namespaces (all modules)
+* `thilux` => http://thi.ng/luxor namespaces
+* `thimath` => http://thi.ng/math namespaces
+* `thitrio` => http://thi.ng/trio namespaces
 
+### thi.ng/color specific snippets
+
+* `csscol`
+
+### thi.ng/geom specific snippets
+
+* `exportmesh` (with type chooser)
+* `importmesh`

@@ -1,0 +1,7 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: thi.ng/geom: import mesh
+# key: importmesh
+# binding: direct-keybinding
+# --
+(with-open [$1 (io/input-stream $2)]
+  (mio/read-stl (mio/wrapped-input-stream $1) $0))
