@@ -42,3 +42,4 @@ Useful for importing various thi.ng lib namespaces in a `:require` spec:
 * `exportmesh` (with type chooser) => export mesh in different formats
 * `importmesh` => import mesh (currently STL only)
 * `ptfmesh` => convert point seq to bezier to [PTF mesh](https://github.com/thi-ng/geom/blob/master/geom-types/src/ptf.org)
+* `txmat` => 4x4 transform matrix (translate, rotate, scale)

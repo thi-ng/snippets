@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: thi.ng/geom: 4x4 transform matrix
+# key: txmat
+# binding: direct-keybinding
+# --
+(-> M44 (g/translate $1) (g/rotate $2) (g/scale $3))
