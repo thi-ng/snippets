@@ -1,10 +1,24 @@
-# snippets
+# thi.ng/snippets
 
-Growing [yasnippet](https://github.com/capitaomorte/yasnippet) collection for various thi.ng libraries:
+Growing [yasnippet](https://github.com/capitaomorte/yasnippet) code
+snippet collection for various thi.ng libraries:
 
-Currently:
+## Installation
 
-## Namespace choosers
+```
+cd ~/.emacs.d
+git clone git@github.com:thi-ng/snippets.git thing-snippets
+```
+
+Then add directory to yasnippet search paths (in `init.el`):
+
+```emacs-lisp
+(add-to-list 'yas-snippet-dirs "~/.emacs.d/thing-snippets")
+```
+
+## Available snippets
+
+### Namespace choosers
 
 Useful for importing various thi.ng lib namespaces in a `:require` spec:
 
