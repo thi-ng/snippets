@@ -1,0 +1,12 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: thi.ng/color ns chooser
+# key: thicol
+# binding: direct-keybinding
+# --
+[thi.ng.color.${1:$$(yas-choose-value '(
+"core"
+"gradients"
+"presets"
+"presets.categories"
+"presets.brewer"
+))} :as $2]$0

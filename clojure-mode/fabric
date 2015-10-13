@@ -1,0 +1,14 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: thi.ng/fabric ns chooser
+# key: thifab
+# binding: direct-keybinding
+# --
+[thi.ng.fabric.${1:$$(yas-choose-value '(
+"core"
+"utils"
+"facts.core"
+"facts.dsl"
+"facts.queryviz"
+"facts.io.ntriples"
+"ld.core"
+))} :as $2]$0

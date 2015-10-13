@@ -1,0 +1,10 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: thi.ng/math ns chooser
+# key: thimath
+# binding: direct-keybinding
+# --
+[thi.ng.math.${1:$$(yas-choose-value '(
+"core"
+"macros"
+"simplexnoise"
+))} :as $2]$0
