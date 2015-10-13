@@ -36,5 +36,7 @@ Useful for importing various thi.ng lib namespaces in a `:require` spec:
 
 ### thi.ng/geom specific snippets
 
+(Targets latest API state in dev-branch)
+
 * `exportmesh` (with type chooser)
 * `importmesh`

@@ -3,5 +3,5 @@
 # key: exportmesh
 # binding: direct-keybinding
 # --
-(with-open [$1 (io/output-stream $2)]
-  (mio/write-${3:$$(yas-choose-value '("off" "obj" "ply" "stl"))} (mio/wrapped-output-stream $1) $0))
+(with-open [${1:out} (io/output-stream ${2:path})]
+  (mio/write-${3:$$(yas-choose-value '("off" "obj" "ply" "stl"))} (mio/wrapped-output-stream $1) ${0:mesh}))
