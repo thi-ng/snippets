@@ -1,0 +1,18 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: thi.ng/trio ns chooser
+# key: thitrio
+# binding: direct-keybinding
+# --
+[thi.ng.trio.${1:$$(yas-choose-value '(
+"core"
+"entities"
+"inference"
+"query"
+"utils"
+"vocabs"
+"vocabs.dcterms"
+"vocabs.owl"
+"vocabs.rdf"
+"vocabs.rdfs"
+"vocabs.utils"
+))} :as $2]$0

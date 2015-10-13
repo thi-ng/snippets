@@ -1,0 +1,10 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: thi.ng/simplecl ns chooser
+# key: thicl
+# binding: direct-keybinding
+# --
+[thi.ng.simplecl.${1:$$(yas-choose-value '(
+"core"
+"ops"
+"utils"
+))} :as $2]$0

@@ -1,0 +1,14 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: thi.ng/luxor ns chooser
+# key: thilux
+# binding: direct-keybinding
+# --
+[thi.ng.luxor.${1:$$(yas-choose-value '(
+"core"
+"compiler"
+"config"
+"io"
+"presets"
+"primitive"
+"scenes"
+))} :as $2]$0
