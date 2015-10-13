@@ -1,0 +1,12 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: thi.ng/geom: Points -> PTF mesh
+# key: ptfmesh
+# binding: direct-keybinding
+# --
+(-> ${1:points}
+    (b/auto-spline)
+    (g/vertices ${2:resolution})
+    (vec)
+    (ptf/compute-frames)
+    (ptf/align-frames)
+    (ptf/sweep-mesh (g/vertices (c/circle ${3:0.5}) ${4:16})))

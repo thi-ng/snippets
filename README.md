@@ -32,11 +32,13 @@ Useful for importing various thi.ng lib namespaces in a `:require` spec:
 
 ### thi.ng/color specific snippets
 
-* `csscol`
+* `csscol` => convert color to CSS string
+* `cosgradient` => cosine gradient gen (with preset chooser)
 
 ### thi.ng/geom specific snippets
 
 (Targets latest API state in dev-branch)
 
-* `exportmesh` (with type chooser)
-* `importmesh`
+* `exportmesh` (with type chooser) => export mesh in different formats
+* `importmesh` => import mesh (currently STL only)
+* `ptfmesh` => convert point seq to bezier to [PTF mesh](https://github.com/thi-ng/geom/blob/master/geom-types/src/ptf.org)

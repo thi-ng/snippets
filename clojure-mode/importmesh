@@ -4,4 +4,4 @@
 # binding: direct-keybinding
 # --
 (with-open [${1:in} (io/input-stream ${2:path})]
-  (mio/read-stl (mio/wrapped-input-stream $1)))$0
+  (mio/read-stl (mio/wrapped-input-stream $1)))

@@ -1,0 +1,20 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: thi.ng/color: CSS convert
+# key: cosgradient
+# binding: direct-keybinding
+# --
+(->> ${1:$$(yas-choose-value '(
+":rainbow1"
+":rainbow2"
+":rainbow3"
+":rainbow4"
+":yellow-magenta-cyan"
+":orange-blue"
+":green-magenta"
+":green-red"
+":green-cyan"
+":yellow-red"
+":blue-cyan"
+":red-blue"))}
+     (grad/cosine-schemes)
+     (apply grad/cosine-gradient ${2:num-cols}))
