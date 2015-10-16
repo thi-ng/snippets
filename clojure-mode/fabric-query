@@ -1,0 +1,15 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: thi.ng/fabric DSL query
+# key: qspec
+# binding: direct-keybinding
+# --
+(dsl/add-query-from-spec!
+   ${1:graph}
+   '{:q         [{$2}]
+     :filter    $3
+     :group-by  $4
+     :aggregate $5
+     :order     $6
+     :bind      {$7}
+     :values    {$8}
+     :select    ${9::*}})
